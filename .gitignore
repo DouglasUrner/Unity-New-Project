@@ -2,13 +2,13 @@
 /*
 
 # Except for these:
-!*/.gitattributes
-!*/.gitignore
-!*/Assets
-!*/ProjectSettings
-!*/README*
-!*/License
+!.gitattributes
+!.gitignore
+!Assets
+!ProjectSettings
+!README*
+!License
 
 # But do ignore these (Rider plugin breaks things on
 # machines without Rider installed):
-*/Assets/Plugins/Editor/JetBrains*
+*Assets/Plugins/Editor/JetBrains*
