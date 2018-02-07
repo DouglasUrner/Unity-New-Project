@@ -8,4 +8,4 @@
 
 # But do ignore these (Rider plugin breaks things on
 # machines without Rider installed):
-*/Assets/Plugins*
+*/Assets/Plugins/Editor/JetBrains*
