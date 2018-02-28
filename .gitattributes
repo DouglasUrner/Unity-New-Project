@@ -1,6 +1,9 @@
 # .gitattributes
 #
-# From Tim Pettersen's atricle "The Complete Guide to Unity & Git" on Gamasutra (https://www.gamasutra.com)
+# Git LFS configuration
+#
+# From Tim Pettersen's atricle "The Complete Guide to Unity & Git"
+# on Gamasutra (https://www.gamasutra.com)
 
 # Images
 *.jpg filter=lfs diff=lfs merge=lfs -text
