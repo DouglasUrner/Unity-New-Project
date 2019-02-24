@@ -2,7 +2,7 @@
 
 A set of files to create an empty Unity project.
 
-Using:
+Usage:
 
 1. Create an empty repository on GitHub (do not initialize).
 1. Clone this package: ```git clone https://github.com/DouglasUrner/Unity-New-Project```
@@ -15,6 +15,6 @@ created: ```git remote set-url origin <Repository URL>```
 1. If, for some reason you want to track this package, add it as an
 upstream repository.
 
-TODO: modify .git/config to support SmartMerge.
-TODO: add post-merge hook to keep empty folders in sync.
+* TODO: modify .git/config to support SmartMerge.
+* TODO: add post-merge hook to keep empty folders in sync.
 (https://github.com/strich/git-dir-cleaner-for-unity3d)
