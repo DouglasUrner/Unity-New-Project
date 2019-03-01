@@ -2,7 +2,7 @@
 
 REPO=https://github.com/DouglasUrner/Unity-New-Project.git
 
-git clone $REPO .git
+git clone $REPO .git || exit -1
 mv `basename $REPO` $1
 rm $1/README.md ; touch $1/README.md
 rm -rf $1/.gio
