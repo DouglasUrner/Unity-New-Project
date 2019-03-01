@@ -3,9 +3,9 @@
 REPO=https://github.com/DouglasUrner/Unity-New-Project.git
 
 git clone $REPO .git || exit -1
-mv `basename $REPO` $1
+mv `basename $REPO .git` $1
 rm $1/README.md ; touch $1/README.md
-rm -rf $1/.gio
+rm -rf $1/.git
 
 mkdir -p $1/Assets/{Materials,Prefabs,Scenes,Scripts}/README.md
 
