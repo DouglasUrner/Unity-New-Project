@@ -15,6 +15,8 @@ created: ```git remote set-url origin <Repository URL>```
 1. If, for some reason you want to track this package, add it as an
 upstream repository.
 
+The unity-new-project script automates some of this.
+
 * TODO: modify .git/config to support SmartMerge.
 * TODO: add post-merge hook to keep empty folders in sync.
 (https://github.com/strich/git-dir-cleaner-for-unity3d)
