@@ -9,12 +9,15 @@
 !.gitattributes
 !.gitignore
 !Assets
+!LICENSE
+!Packages/manifest.json
 !ProjectSettings
 !README*
-!License
 
 # But do ignore these:
 #
+# macOS
+.DS_Store
 # The JetBrains Rider plugin breaks things on
 # machines without Rider installed.
 #
